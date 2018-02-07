@@ -1,57 +1,45 @@
-# Project Name
+# Azure Functions Unit Testing Sample
 
-(short, 1-3 sentenced, description of the project)
+Azure Functions Unite Testing Samples for V2 Functions.
 
 ## Features
 
-This project framework provides the following features:
+The sample provides the following samples:
 
-* Feature 1
-* Feature 2
-* ...
+* HttpTrigger
+* QueueTrigger
+* Table Output bindings
+* Durable Functions
+
+You can refer how to mock the apps. Also, you can re-use FunctionTestHelper package.
+
+We try to increase the samples, EventGridTrigger, EventHubTrigger, ServiceBus... and so on.
 
 ## Getting Started
 
+### 1. Clone this samples
+
+Clone this repo with your Visual Studo. 
+
+```
+git clone https://github.com/Azure-Samples/functions-unittesting-sample.git
+```
+
 ### Prerequisites
 
-(ideally very short, if any)
-
-- OS
-- Library version
-- ...
-
-### Installation
-
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
-
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [respository name]
-3. ...
+Visual Studio 2017 (15.6+)
+.Net Core Runtime 
 
 
-## Demo
+### Note
 
-A demo app is included to show how to use the project.
+For enabling Durable Functions Unit Testing feature, you need to upgrade nuget packages. 
 
-To run the demo, follow these steps:
+* Microsoft.NET.Sdk.Functions v1.0.7
+* Microsoft.Azure.WebJobs.Extensions.DurableTask v1.1.1-beta2
 
-(Add steps to start up the demo)
-
-1.
-2.
-3.
 
 ## Resources
 
-(Any additional resources or related projects)
+Coming soon
 
-- Link to supporting information
-- Link to similar sample
-- ...
