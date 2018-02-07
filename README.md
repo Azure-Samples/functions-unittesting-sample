@@ -1,4 +1,4 @@
-# Azure Functions Unit Testing Sample
+# Azure Functions / Durable Functions Unit Testing Sample
 
 Azure Functions Unite Testing Samples for V2 Functions.
 
