@@ -1,3 +1,5 @@
+
+
 # Azure Functions / Durable Functions Unit Testing Sample
 
 Azure Functions Unite Testing Samples for V2 Functions.
@@ -37,6 +39,8 @@ For enabling Durable Functions Unit Testing feature, you need to upgrade nuget p
 
 * Microsoft.NET.Sdk.Functions v1.0.7
 * Microsoft.Azure.WebJobs.Extensions.DurableTask v1.1.1-beta2
+
+You might need to add `https://www.myget.org/F/azure-appservice/api/v3/index.json` as a nuget package sources for fetching the DurableTask v1.1.1-beta2
 
 
 ## Resources
