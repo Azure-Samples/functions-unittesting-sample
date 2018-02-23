@@ -15,7 +15,7 @@ namespace DotNet.Test
         [TestMethod]
         public async Task Run_Orchectrator()
         {
-            var contextMock = new Mock<DurableOrchestrationContextBase>();  // Doesn't work
+            var contextMock = new Mock<DurableOrchestrationContextBase>(); 
             contextMock.Setup(context => context.CallActivityAsync<string>("DurableFunctions_Hello", "Tokyo")).Returns(Task.FromResult<string>("Hello Tokyo!"));
             contextMock.Setup(context => context.CallActivityAsync<string>("DurableFunctions_Hello", "Seattle")).Returns(Task.FromResult<string>("Hello Seattle!"));
             contextMock.Setup(context => context.CallActivityAsync<string>("DurableFunctions_Hello", "London")).Returns(Task.FromResult<string>("Hello London!"));
